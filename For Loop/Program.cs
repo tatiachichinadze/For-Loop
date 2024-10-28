@@ -4,7 +4,7 @@ Number = int.Parse(Console.ReadLine());
 Console.WriteLine("Entered Number:" + Number);
 Console.WriteLine("Answer:");
 
-for (int i = 0; i < 10; i++)
+for (int i = 1; i < 10; i++)
 {
     Result = i * Number;
     Console.WriteLine(Number + "*" + i + "=" + Result);   
